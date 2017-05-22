@@ -1080,6 +1080,7 @@ def create_graph_style_file(filename = 'visJS_html_file_temp',
        for(var i=0; i<python_edges.length; i++){
          edgeArray.push({from: python_edges[i].source,
                          to: python_edges[i].target,
+                         width: python_edges[i].value,
 						 label: python_edges[i].""" + edge_label_field + """,
                          title: python_edges[i].""" + edge_title_field + """,
                          color: {
